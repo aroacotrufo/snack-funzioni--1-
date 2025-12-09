@@ -6,11 +6,11 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 // Dichiara la funzione qui.
 
 function listaIniziali(myArray){
-
-    for (i=0; i<=myArray.lenght; i++){
+    const listaInizialiArray = [];
+    for (i =0 ; i < myArray.lenght; i++){
         listaInizialiArray.push(myArray[i].charAt(0));
     }
-    return listaIniziali;
+    return listaInizialiArray;
 }
 
 
