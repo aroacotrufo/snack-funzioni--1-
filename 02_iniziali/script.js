@@ -8,7 +8,8 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 function listaIniziali(myArray){
     const listaInizialiArray = [];
     for (i =0 ; i < myArray.lenght; i++){
-        listaInizialiArray.push(myArray[i].charAt(0));
+        const iniziale = myArray [i][0]; //prende la prima lettera della stringa
+        result.push(iniziale);
     }
     return listaInizialiArray;
 }
